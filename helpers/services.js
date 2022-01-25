@@ -40,7 +40,7 @@ const getVariablesList = function () {
 module.exports.html = function (mainThemeColor, mainColor) {
     let html = `<body style="background-color: ${getMainColor(mainThemeColor, mainColor)};">`
     html += '<h1 style="color: white;">Node Express application</h1>';
-    html += '<h3 style="color: white;">version: 9.0</h3>';
+    html += '<h3 style="color: white;">version: 10.0</h3>';
     html += '<p style="color: white;">local ip address: ' + arrayToList(getLocalIpAddress()) + '</p>';
     html += '<hr/>';
     html += '<p>environment variables list:</p>';
