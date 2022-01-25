@@ -3,8 +3,8 @@ const app = express();
 
 const html = require('./helpers/services').html
 
-const mainColor = 'navy';
-const mainThemeColor = { green: 'green', navy: 'navy' };
+const mainColor = 'orange';
+const mainThemeColor = { green: 'green', navy: 'navy', orange: 'orange' };
 const port = process.env.PORT || 8080;
 
 
